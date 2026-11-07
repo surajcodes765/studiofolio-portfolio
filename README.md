@@ -1,9 +1,9 @@
-# studiofolio-portfolio
+# freelancer-portfolio
 Responsive freelancer portfolio website using HTML, CSS and JavaScript.
-# StudioFolio — Creative Portfolio
+# freelancer — Creative Portfolio
 
 ## Project Overview
-StudioFolio is a responsive portfolio website
+freelancer Folio is a responsive portfolio website
 for showcasing creative design services and projects.
 
 ## Features
