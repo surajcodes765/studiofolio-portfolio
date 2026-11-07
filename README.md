@@ -3,7 +3,7 @@ Responsive freelancer portfolio website using HTML, CSS and JavaScript.
 # freelancer — Creative Portfolio
 
 ## Project Overview
-freelancer Folio is a responsive portfolio website
+freelancer is a responsive portfolio website
 for showcasing creative design services and projects.
 
 ## Features
@@ -27,8 +27,10 @@ for showcasing creative design services and projects.
 Created as an academic web development project.
 The portfolio projects and testimonials are sample content.
 
-## Author
-Suraj Chauhan
-
 ## Group
 Group 17
+
+## Group 17 member name
+Suraj Chauhan
+Aditya
+Nitin Gupta
