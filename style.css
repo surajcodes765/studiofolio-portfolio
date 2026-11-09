@@ -833,3 +833,12 @@ h2 {
     background: var(--background);
     color: var(--accent);
 }
+/* LIGHT MODE */
+
+body.light-mode {
+    --background: #f5f5f5;
+    --surface: #ffffff;
+    --text: #222222;
+    --muted: #666666;
+    --border: #dddddd;
+}
