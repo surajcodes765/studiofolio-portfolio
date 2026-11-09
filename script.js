@@ -111,6 +111,41 @@ nextButton.addEventListener("click", function () {
     showTestimonial(currentIndex);
 
 });
+const projects = {
+    northstar: ["Northstar Studio", "A professional business website.", "Business Website"],
+    "daily-balance": ["Daily Balance", "A daily routine mobile app.", "Mobile App"],
+    "rooted-organics": ["Rooted Organics", "An organic brand identity.", "Brand Identity"],
+    "somewhere-travel": ["Somewhere Travel", "A modern travel website.", "Travel Website"],
+    soundscape: ["Soundscape", "A modern music application.", "Music App"],
+    "slow-mornings": ["Slow Mornings", "A cozy cafe brand concept.", "Cafe Branding"]
+};
+
+const modal = document.getElementById("projectModal");
+
+document.querySelectorAll(".project-details-btn").forEach(btn => {
+    btn.onclick = () => {
+        const p = projects[btn.dataset.project];
+        if (!p) return;
+
+        document.getElementById("modalTitle").textContent = p[0];
+        document.getElementById("modalDescription").textContent = p[1];
+        document.getElementById("modalCategory").textContent = p[2];
+
+        modal.style.display = "flex";
+    };
+});
+
+document.getElementById("modalClose").onclick = () => {
+    modal.style.display = "none";
+};
+
+modal.onclick = e => {
+    if (e.target === modal) modal.style.display = "none";
+};
+
+document.onkeydown = e => {
+    if (e.key === "Escape") modal.style.display = "none";
+};
 
 
 // Display the initial testimonial
