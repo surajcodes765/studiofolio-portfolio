@@ -830,33 +830,20 @@ h2 {
     background: var(--background);
     color: var(--accent);
 }
-/* LIGHT MODE */
-
-body.light-mode {
-    --background: #f5f5f5;
-    --surface: #ffffff;
-   body.light-mode {
-    background: #f5f5f5 !important;
-    color: #222222 !important;
-}
-
-body.light-mode .project-card,
-body.light-mode .skill-card,
-body.light-mode .project-modal-content {
-    background: #ffffff !important;
-    color: #222222 !important;
-    border-color: #dddddd !important;
-}
-   
-   /* FIX WHITE BACKGROUND TEXT */
+/* FIX WHITE BACKGROUND TEXT */
 
 .hero-card,
-.project-visual {
+.mock-window,
+.phone-mock,
+.brand-mock,
+.travel-mock,
+.music-mock,
+.cafe-mock {
     color: #20251f;
 }
 
 .mock-window p {
-    color: #77796f;
+    color: #555555;
 }
 
 .testimonial-card {
