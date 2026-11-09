@@ -146,6 +146,14 @@ modal.onclick = e => {
 document.onkeydown = e => {
     if (e.key === "Escape") modal.style.display = "none";
 };
+const themeBtn = document.getElementById("themeToggle");
+
+themeBtn.onclick = () => {
+    document.body.classList.toggle("light-mode");
+
+    themeBtn.textContent =
+        document.body.classList.contains("light-mode") ? "🌙" : "☀️";
+};
 
 
 // Display the initial testimonial
