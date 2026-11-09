@@ -829,30 +829,7 @@ h2 {
     background: var(--background);
     color: var(--accent);
 }
-/* FIX WHITE BACKGROUND TEXT */
 
-.hero-card,
-.mock-window,
-.phone-mock,
-.brand-mock,
-.travel-mock,
-.music-mock,
-.cafe-mock {
-    color: #20251f;
-}
-
-.mock-window p {
-    color: #555555;
-}
-
-.testimonial-card {
-    background: #ffffff;
-    color: #20251f;
-}
-
-#testimonial-role {
-    color: #77796f;
-}
 
    
    
