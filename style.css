@@ -3,13 +3,13 @@
 ================================= */
 
 :root {
-    --background: #000000;
-    --surface: #222222;
-    --text: #ffffff;
-    --muted: #aaaaaa;
+    --background: #f8f7f3;
+    --surface: #ffffff;
+    --text: #20251f;
+    --muted: #77796f;
     --accent: #b6ef72;
-    --dark: #ffffff;
-    --border: #383838;
+    --dark: #20251f;
+    --border: #e5e4dc;
 }
 
 * {
